@@ -1,0 +1,21 @@
+<html>
+<head></head>
+<body>
+	<div id="d1"></div>
+	<div id="d2"></div>
+<script>
+		var arr=["ZZZ","SSS","WWW","PPP","AAA","RRR","BBB"];
+	    document.getElementById("d1").innerHTML=arr;
+		arr.pop();
+		arr.push("QQQ");
+		arr.unshift("SSS");
+		arr.shift("WWW");
+		arr.sort();
+		arr.reverse();
+		arr.splice(2,0,"ABC","AAA");
+		document.getElementById("d2").innerHTML=arr;
+		
+
+</script>
+</body>
+</html>

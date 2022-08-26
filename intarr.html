@@ -1,0 +1,22 @@
+<html>
+<head>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2"></div>
+    <script>
+		var arr=[1,2,3,4,5,66,7,77,78,33];
+	    document.getElementById("d1").innerHTML=arr;
+		arr.pop();
+		arr.push("111");
+		arr.unshift("222");
+		arr.shift("000");
+		arr.sort();
+		arr.reverse();
+		arr.splice(2,0,"222","1");
+		document.getElementById("d2").innerHTML=arr;
+
+
+    </script>
+</body>
+</html>
