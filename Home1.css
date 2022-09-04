@@ -1,0 +1,27 @@
+#heading {
+    background-image: url('Ab.jpg');
+    height: 750px;
+    width: 100%;
+
+}
+#heading1 {
+    background-color:paleturquoise;
+  
+}
+#h1 {
+    color:mediumvioletred;
+    background-color:seashell;
+    border:5px solid double;
+}
+
+#f1 {
+    color: mediumvioletred;
+    background-color: seashell;
+    border: 5px solid double;
+}
+
+#heading2 {
+    background-image: url('Ho.gif');
+    height: 1050px;
+    width: 100%;
+}
